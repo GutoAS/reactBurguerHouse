@@ -4,6 +4,7 @@ import PropagateLoader from 'react-spinners/PropagateLoader'
 import './App.css'
 import Header from './components/Header';
 import Products from './components/Products';
+import About from './components/About';
 
 function App() {
   const[loading, setLoading] = useState(false);
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Header />
       <Products />
+      <About />
       </>
      }
   </div>
