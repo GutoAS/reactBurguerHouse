@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav className={nav ? "nav active": "nav"}>
-        <Link to="main" className='logo'>
+        <Link to="main" className='logo' smooth={true} duration={2000}>
             <img src={logo} alt= "" />
         </Link>
         <input type="checkbox" className='menu-btn' id='menu-btn'/>
@@ -26,10 +26,10 @@ const Navbar = () => {
             <span className='nav-icon'></span>
         </label>
         <ul className='menu'>
-            <li><Link to="#">HOME</Link></li>
-            <li><Link to="#">Produtos</Link></li>
-            <li><Link to="#">Sobre Nós</Link></li>
-            <li><Link to="#">Contactos</Link></li>
+            <li><Link to="main" smooth={true} duration={2000}>HOME</Link></li>
+            <li><Link to="products" smooth={true} duration={2000}>Produtos</Link></li>
+            <li><Link to="about" smooth={true} duration={2000}>Sobre Nós</Link></li>
+            <li><Link to="contact" smooth={true} duration={2000}>Contactos</Link></li>
         </ul>
     </nav>
   )
