@@ -17,7 +17,7 @@ function App() {
   return (
   <div className='App'>
     {
-      loading ? <PropagateLoader color="#36d7b7" />
+      loading ? <PropagateLoader color="#3d2514" loading={loading}  cssOverride ={{ display: "block", "border-color" : "red", "margin-top": "20%"}} size={40}/>
       :
       <>
       <Navbar />
