@@ -34,7 +34,7 @@ input {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./images/banner.png");
+  background-image: url("./assets/banner.png");
 }
 nav {
   display: flex;
@@ -100,16 +100,16 @@ nav .menu-btn,
 }
 .header-heading h3 {
   font-family: "Bebas Neue";
-  font-size: 1.6rem;
+  font-size: 1rem;
   margin: 0px;
   letter-spacing: 2px;
   color: #3d2514;
 }
 .header-heading h1 {
   font-family: "Alfa Slab One";
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #3d2514;
 }
 .header-btns {
@@ -348,7 +348,7 @@ nav .menu-btn,
     font-size: 1.5rem;
   }
   .header-heading h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .header-heading .details {
     font-size: 1rem;

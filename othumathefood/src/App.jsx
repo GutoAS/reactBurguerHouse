@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Navbar from './components/Navbar';
 import PropagateLoader from 'react-spinners/PropagateLoader'
 import './App.css'
+import Header from './components/Header';
 
 function App() {
   const[loading, setLoading] = useState(false);
@@ -11,7 +12,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
     setLoading(false)
-  }, 5000);
+  }, 2000);
   },[])
 
   return (
@@ -21,6 +22,7 @@ function App() {
       :
       <>
       <Navbar />
+      <Header />
       </>
      }
   </div>
