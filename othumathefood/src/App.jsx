@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header';
 import Products from './components/Products';
 import About from './components/About';
+import Contact from './components/Contact'
 
 function App() {
   const[loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ function App() {
       <Header />
       <Products />
       <About />
+      <Contact />
       </>
      }
   </div>
